@@ -44,7 +44,7 @@ public class MainApp {
          System.out.println("Email = "+user.getEmail());
          System.out.println("Car = " + user.getCar());
       }
-      System.out.println(userService.userHasCar(cars.get(0)));
+      System.out.println(userService.getUserByCar(cars.get(0)));
       context.close();
 
    }
